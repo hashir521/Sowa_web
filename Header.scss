@@ -1,0 +1,184 @@
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  
+    gap: 0.4rem;
+    margin: 4rem 0;
+  
+    .header-img {
+      padding: 2rem;
+      img {
+        width:490px;
+        height: 498px;
+        object-fit: cover;
+        object-position: center;
+      }
+      @media screen and (max-width: 999px) {  
+        img {
+          max-width: 490px;
+          max-height:498px;
+          opacity: 0.9;
+        }
+      }
+    }
+    .header-content {
+      padding: 2rem;
+  
+      h2 {
+        inline-size: 450px;
+        font-size: 38px;
+        font-weight: 700;
+      }
+      p {
+        inline-size: 300px;
+        margin-bottom: 3rem;
+      }
+  
+      .connect-form {
+        margin-bottom: 3rem;
+        padding: 2rem;
+        background-color: rgb(198, 227, 206);
+        form {
+          display: flex;
+          gap: 0.6rem;
+          .form-group {
+            input {
+              border-radius: 5px;
+              -webkit-border-radius: 5px;
+              -moz-border-radius: 5px;
+              -ms-border-radius: 5px;
+              -o-border-radius: 5px;
+              max-width: 300px;
+              height: 60px;
+              // font-size: 1rem;
+              padding: 10px;
+              color: gray;
+              border: 1px solid rgb(211, 206, 206);
+            }
+          }
+  
+          .submit_btn {
+            .btn__quote {
+              border-radius: 5px;
+              -webkit-border-radius: 5px;
+              -moz-border-radius: 5px;
+              -ms-border-radius: 5px;
+              -o-border-radius: 5px;
+              padding: 1rem;
+              font-size: 1.125rem;
+              line-height: 1.1;
+              height: 60px;
+              min-width: 200px;
+              border: none;
+              background-color: var(--green);
+              color: white;
+            }
+          }
+        }
+        @media screen and (max-width: 1200px) {
+          position: absolute;
+        }
+        @media screen and (max-width: 999px) {
+          margin-bottom: 5rem;
+          padding: 1rem;
+          position: absolute;
+          top: 68%;
+          form {
+            flex-direction: column;
+  
+            .form-group {
+              input {
+                min-width: 500px;
+              }
+            }
+            .submit_btn {
+              .btn__quote {
+                min-width: 100%;
+              }
+            }
+          }
+        }
+        @media screen and (max-width: 768px) {
+         form{
+           align-items: center;
+           margin: 0 20px ;
+           .form-group {
+            input {
+              min-width:300px;
+            }
+          }
+          .submit_btn {
+            .btn__quote {
+              min-width: 300px;
+            }
+          }
+         }
+        }
+      }
+  
+      ul {
+        list-style: none;
+        color: gray;
+        font-size: 1.12rem;
+        line-height: 2;
+        padding:1rem 0;
+  
+        li {
+          display: flex;
+          inline-size: 350px;
+          gap: 1rem;
+  
+          .check-icon {
+            font-size: 1.5rem;
+          }
+        }
+        @media screen and (max-width: 1200px) {
+          position: absolute;
+          top:63%;
+        }
+        @media screen and (max-width: 999px) {
+          position: absolute;
+          margin-bottom: 4rem;
+          top: 160%;
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        h2,
+        p {
+          inline-size: 200px;
+        }
+      }
+  
+      @media screen and (max-width: 999px) {
+        position: absolute;
+        color:white;
+        inline-size:200px;
+        top: 26%;
+        margin-left: 10px;
+        h2 {
+          font-size: 22px;
+         
+        }
+        p {
+          inline-size:100%;
+        }
+      }
+     
+    }
+  
+  
+  
+  
+  
+  
+    @media screen and (max-width: 999px) {
+      margin-top: 0;
+      display: block;
+      flex-wrap: wrap;
+      white-space: nowrap;
+      right: 0;
+      left: 0;
+    }
+  }
+  

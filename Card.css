@@ -1,0 +1,37 @@
+.card{
+    border-color: aqua;
+    /* border-radius: 1px; */
+    width: 25%;
+    margin-top: 5px; 
+   
+
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+
+}
+.card__items{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+align-content: space-between;
+}
+div {
+  display: block;
+}
+*{
+  box-sizing: border-box;
+}
+ img{
+  object-fit: contain;
+  vertical-align: middle;
+  width: 40px;
+    aspect-ratio: auto 30 / 30;
+    height: 30px;
+  
+}
+.line{
+justify-content: space-between!important;
+display: flex
+   
+}

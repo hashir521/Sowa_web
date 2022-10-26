@@ -1,0 +1,105 @@
+.how-it-work {
+    background-color: #d0f3e3;
+    font-size: large;
+  }
+  
+  .card__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: var(--primary-color);
+  }
+  
+  .card__container .card__container-body {
+    padding: 3rem;
+  }
+  
+  .card__container .card__container-body h2 {
+    font-size: 25px;
+  }
+  
+  .card__container .card__container-body .card_title {
+    color: var(--blue);
+  }
+  
+  .card__container .card__container-body .card_content {
+    margin-top: 2rem;
+    inline-size: 410px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .card__container .card__container-body {
+      padding: 2rem;
+    }
+  }
+  
+  .card__container .item-steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .card__container .item-steps h6 {
+    background-color: #260592;
+    color: white;
+    width: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  .card__container .item-steps span {
+    border-left: 2px solid #260592;
+    height: 100%;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .card__container .item-steps {
+      /*  flex-direction: row;
+          justify-content: space-evenly;
+    
+          span {
+            border-top: 1px solid rgb(38, 5, 146);
+            width: 50%;
+          } */
+    }
+  }
+  
+  .card__container .card__items-steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .card__container .card__items-steps .card__item-step {
+    display: -ms-grid;
+    display: grid;
+  }
+  
+  @media screen and (max-width: 998px) {
+    .card__container {
+      display: block;
+    }
+    .card__container .card__items-steps {
+      margin: 0;
+    }
+  }
+  /*# sourceMappingURL=HowItWork.css.map */

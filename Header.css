@@ -1,0 +1,205 @@
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 0.4rem;
+    margin: 4rem 0;
+  }
+  
+  .header .header-img {
+    padding: 2rem;
+  }
+  
+  .header .header-img img {
+    width: 490px;
+    height: 498px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  
+  @media screen and (max-width: 999px) {
+    .header .header-img img {
+      max-width: 490px;
+      max-height: 498px;
+      opacity: 0.9;
+    }
+  }
+  
+  .header .header-content {
+    padding: 2rem;
+  }
+  
+  .header .header-content h2 {
+    inline-size: 450px;
+    font-size: 38px;
+    font-weight: 700;
+  }
+  
+  .header .header-content p {
+    inline-size: 300px;
+    margin-bottom: 3rem;
+  }
+  
+  .header .header-content .connect-form {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #c6e3ce;
+  }
+  
+  .header .header-content .connect-form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0.6rem;
+  }
+  
+  .header .header-content .connect-form form .form-group input {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    max-width: 300px;
+    height: 60px;
+    padding: 10px;
+    color: gray;
+    border: 1px solid #d3cece;
+  }
+  
+  .header .header-content .connect-form form .submit_btn .btn__quote {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.1;
+    height: 60px;
+    min-width: 200px;
+    border: none;
+    background-color: var(--green);
+    color: white;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .header .header-content .connect-form {
+      position: absolute;
+    }
+  }
+  
+  @media screen and (max-width: 999px) {
+    .header .header-content .connect-form {
+      margin-bottom: 5rem;
+      padding: 1rem;
+      position: absolute;
+      top: 68%;
+    }
+    .header .header-content .connect-form form {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .header .header-content .connect-form form .form-group input {
+      min-width: 500px;
+    }
+    .header .header-content .connect-form form .submit_btn .btn__quote {
+      min-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header .header-content .connect-form form {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 0 20px;
+    }
+    .header .header-content .connect-form form .form-group input {
+      min-width: 300px;
+    }
+    .header .header-content .connect-form form .submit_btn .btn__quote {
+      min-width: 300px;
+    }
+  }
+  
+  .header .header-content ul {
+    list-style: none;
+    color: gray;
+    font-size: 1.12rem;
+    line-height: 2;
+    padding: 1rem 0;
+  }
+  
+  .header .header-content ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    inline-size: 350px;
+    gap: 1rem;
+  }
+  
+  .header .header-content ul li .check-icon {
+    font-size: 1.5rem;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .header .header-content ul {
+      position: absolute;
+      top: 63%;
+    }
+  }
+  
+  @media screen and (max-width: 999px) {
+    .header .header-content ul {
+      position: absolute;
+      margin-bottom: 4rem;
+      top: 160%;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .header .header-content h2,
+    .header .header-content p {
+      inline-size: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 999px) {
+    .header .header-content {
+      position: absolute;
+      color: white;
+      inline-size: 200px;
+      top: 26%;
+      margin-left: 10px;
+    }
+    .header .header-content h2 {
+      font-size: 22px;
+    }
+    .header .header-content p {
+      inline-size: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 999px) {
+    .header {
+      margin-top: 0;
+      display: block;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      white-space: nowrap;
+      right: 0;
+      left: 0;
+    }
+  }
+  /*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,24 @@
+/* img{
+    border-radius: 20%;
+    border-color: aqua;
+    size: 20px;
+    max-width: 100%;  
+    width: 300;
+} */
+
+   .icon-circle img{
+        width: 5rem;
+        /* background-color: aqua; */
+        height: 5rem;
+     } 
+    
+    img{
+        vertical-align: middle;
+    border-style: none;
+    } 
+.whyGeta{
+    margin-top: 100px;
+}
+.why{
+    margin-top: 40px;
+}

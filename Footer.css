@@ -1,0 +1,29 @@
+/* .footer{
+    background-color: aquamarine;
+    width: 100%;
+}
+.ul >li >a{
+    color: white;
+} */
+#div-footer {
+    background-color: #3131c5;
+  }
+  
+  footer {
+    color: white;
+    font-size: large;
+  }
+  
+  #footer-anchor-color {
+    font-size: small;
+  }
+  
+  #footer-anchor-color:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  #footer-anchor-color:visited {
+    color: white;
+  }
+  /*# sourceMappingURL=Footer.css.map */

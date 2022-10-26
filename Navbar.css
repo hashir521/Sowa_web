@@ -1,0 +1,30 @@
+/* .nav__items{
+    background-color: red;
+   display: flex;
+   
+    flex-direction: row;
+} */
+/* .navbar{
+    margin-top: -3.6px;
+    width: 100%;
+}
+.navbar-nav{
+    margin-left: 70px;
+    font-size: 16px;
+    text-transform: uppercase;
+} */
+.navbar {
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+    width: 100%;
+  }
+  
+  #anchor-color:hover {
+    color: #4a4aff;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
